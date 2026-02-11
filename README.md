@@ -96,5 +96,6 @@ PDF documents can be used by first converting them to plain UTF‑8 `.txt` files
 - **CPU-only**: All models are explicitly moved to CPU (`model.to("cpu")`) and there is no GPU-specific code.
 - **Index persistence**: FAISS index and chunk list are stored in `data/index/` so they can be reused across runs (if enabled in the pipeline), which reduces CPU cost for repeated experiments. 
 
-For more details on architecture, preprocessing, retrieval, generation, and performance metrics (latency and memory usage on a CPU-only machine), see the report in `report/`. 
+For more details on architecture, preprocessing, retrieval, generation, and performance metrics (latency and memory usage on a CPU-only machine), see the report in https://github.com/tochWolf/RAG_sanskrit
+
 
