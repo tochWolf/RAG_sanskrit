@@ -1,0 +1,17 @@
+# Core libraries for RAG pipeline (CPU friendly)
+numpy
+pandas
+tqdm
+
+# Text processing / embeddings / vector search
+sentence-transformers
+faiss-cpu
+
+# Simple local LLM via Hugging Face transformers (CPU)
+transformers
+accelerate
+torch
+
+# Sanskrit / Indic helpers (for transliteration etc.)
+indic-transliteration
+process-sanskrit
